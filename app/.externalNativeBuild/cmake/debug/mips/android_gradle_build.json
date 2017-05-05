@@ -1,0 +1,44 @@
+
+{
+	"buildFiles" : [ "D:/GitHub/AudioProcess/app/src/main/cpp/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\rick.wang.E-BAO\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\GitHub\\AudioProcess\\app\\.externalNativeBuild\\cmake\\debug\\mips --target clean"
+	],
+	"libraries" : 
+	{
+		"audio-processor-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "audio-processor",
+			"buildCommand" : "C:\\Users\\rick.wang.E-BAO\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\GitHub\\AudioProcess\\app\\.externalNativeBuild\\cmake\\debug\\mips --target audio-processor",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-15/arch-mips -Daudio_processor_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/GitHub/AudioProcess/app/src/main/cpp/smbPitchShift.c",
+					"workingDirectory" : "D:/GitHub/AudioProcess/app/.externalNativeBuild/cmake/debug/mips"
+				},
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-15/arch-mips -Daudio_processor_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/GitHub/AudioProcess/app/src/main/cpp/audioprocessor.c",
+					"workingDirectory" : "D:/GitHub/AudioProcess/app/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "D:/GitHub/AudioProcess/app/build/intermediates/cmake/debug/obj/mips/libaudio-processor.so",
+			"toolchain" : "1122095605"
+		}
+	},
+	"toolchains" : 
+	{
+		"1122095605" : 
+		{
+			"cCompilerExecutable" : "D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

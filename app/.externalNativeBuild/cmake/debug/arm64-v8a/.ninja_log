@@ -1,0 +1,4 @@
+# ninja log v5
+6	49	0	CMakeFiles/audio-processor.dir/audioprocessor.c.o	db69c082e2ac462c
+1	53	0	CMakeFiles/audio-processor.dir/smbPitchShift.c.o	47348181048df1db
+53	93	0	D:/GitHub/AudioProcess/app/build/intermediates/cmake/debug/obj/arm64-v8a/libaudio-processor.so	dc6bf7bc1b97014a

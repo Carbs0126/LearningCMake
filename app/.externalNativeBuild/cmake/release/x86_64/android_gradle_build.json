@@ -1,0 +1,44 @@
+
+{
+	"buildFiles" : [ "D:/GitHub/AudioProcess/app/src/main/cpp/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\rick.wang.E-BAO\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\GitHub\\AudioProcess\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
+	],
+	"libraries" : 
+	{
+		"audio-processor-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "audio-processor",
+			"buildCommand" : "C:\\Users\\rick.wang.E-BAO\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\GitHub\\AudioProcess\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target audio-processor",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64 -Daudio_processor_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/GitHub/AudioProcess/app/src/main/cpp/smbPitchShift.c",
+					"workingDirectory" : "D:/GitHub/AudioProcess/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-x86_64 -Daudio_processor_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/GitHub/AudioProcess/app/src/main/cpp/audioprocessor.c",
+					"workingDirectory" : "D:/GitHub/AudioProcess/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "D:/GitHub/AudioProcess/app/build/intermediates/cmake/release/obj/x86_64/libaudio-processor.so",
+			"toolchain" : "1122095605"
+		}
+	},
+	"toolchains" : 
+	{
+		"1122095605" : 
+		{
+			"cCompilerExecutable" : "D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

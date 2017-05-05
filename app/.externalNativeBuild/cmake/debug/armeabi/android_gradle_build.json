@@ -1,0 +1,44 @@
+
+{
+	"buildFiles" : [ "D:/GitHub/AudioProcess/app/src/main/cpp/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\rick.wang.E-BAO\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\GitHub\\AudioProcess\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target clean"
+	],
+	"libraries" : 
+	{
+		"audio-processor-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "audio-processor",
+			"buildCommand" : "C:\\Users\\rick.wang.E-BAO\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\GitHub\\AudioProcess\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target audio-processor",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-15/arch-arm -Daudio_processor_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/GitHub/AudioProcess/app/src/main/cpp/smbPitchShift.c",
+					"workingDirectory" : "D:/GitHub/AudioProcess/app/.externalNativeBuild/cmake/debug/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-15/arch-arm -Daudio_processor_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/GitHub/AudioProcess/app/src/main/cpp/audioprocessor.c",
+					"workingDirectory" : "D:/GitHub/AudioProcess/app/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "D:/GitHub/AudioProcess/app/build/intermediates/cmake/debug/obj/armeabi/libaudio-processor.so",
+			"toolchain" : "1122095605"
+		}
+	},
+	"toolchains" : 
+	{
+		"1122095605" : 
+		{
+			"cCompilerExecutable" : "D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Users/rick.wang.E-BAO/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
